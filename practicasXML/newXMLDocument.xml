@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pedido>
+    <producto>
+        <nombre>PlayStation 5</nombre>
+        <cantidad>1</cantidad>
+    </producto>
+    <cliente>
+        <nombre>Francisco Romero</nombre>
+        <direccion>
+            <nom_calle>Huerta 3</nom_calle>
+            <piso>
+                <numero>3</numero>
+                <letra>B</letra>
+            </piso>
+        </direccion>
+    </cliente>
+    <fecha_entrega>
+        <dia>19</dia>
+        <mes>1</mes>
+        <año>2023</año>
+    </fecha_entrega>
+</pedido>
