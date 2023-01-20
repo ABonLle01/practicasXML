@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<proyecto>
+    <datos>
+        <ciclo>Desarrollo de Aplicaciones Multiplataforma</ciclo>
+        <curso>Segundo</curso>
+        <alumno>
+            <nombre>Gerardo</nombre>
+            <apellido>Martin Jaime</apellido>
+        </alumno>
+    </datos>
+    <proy_integrado>
+        <Titulo>FacePi</Titulo>
+        <introduccion>
+            FacePi es un proyecto basado en Raspberry Pi utilizando
+            su capacidad de computación, modularidad y compatibilidad
+            de software.
+        </introduccion>
+        <finalidad>
+            Crear un dispositivo capaz de reconocer rostros
+        </finalidad>
+        <objetivos>
+            <objetivo>Adquisicion del hardware</objetivo>
+            <objetivo>Instalación del SO</objetivo>
+            <objetivo>Puesta a punto de AWS Rekognition</objetivo>
+            <objetivo>Instalacion y vinculacion del software</objetivo>
+            <objetivo>Programacion de scrips</objetivo>
+            <objetivo>Entrenamiento de la red neuronal</objetivo>
+            <objetivo>Testing</objetivo>
+            <objetivo>Conclusion del proyecto</objetivo>
+        </objetivos>
+        <medios_utilizados>
+            <medio>Equipo de sobremesa con Windows 10</medio>
+            <medio>Raspberry Pi 3B</medio>
+            <medio>Cámara</medio>
+        </medios_utilizados>
+        <planificacion>
+            El proyecto se realizará por sprints semanales
+        </planificacion>
+        <bibliografia></bibliografia>
+    </proy_integrado>
+</proyecto>
