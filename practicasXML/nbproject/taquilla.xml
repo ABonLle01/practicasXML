@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<taquilla>
+    <pais>España</pais>
+    <fechas>
+        <inicio>25 de Diciembre</inicio>
+        <fin>27 de Diciembre</fin>
+    </fechas>
+    <peliculas>
+        <pelicula>
+            <posicion>1</posicion>
+            <titulo>
+                <nombre>Trolls 2: Gira mundial</nombre>
+                <enlace></enlace>
+            </titulo>
+            <genero>Animacion</genero>
+            <num_semanas>10</num_semanas>
+            <recaudacion>
+                <fin_semana>34000</fin_semana>
+                <total>2492000</total>
+            </recaudacion>
+        </pelicula>
+        
+        <pelicula>
+            <posicion>2</posicion>
+            <titulo>
+                <nombre>Otra vuelta de tuerca</nombre>
+                <enlace></enlace>
+            </titulo>
+            <genero>Terror</genero>
+            <num_semanas>6</num_semanas>
+            <recaudacion>
+                <fin_semana>22000</fin_semana>
+                <total>184000</total>
+            </recaudacion>
+        </pelicula>
+    </peliculas>
+</taquilla>
+
