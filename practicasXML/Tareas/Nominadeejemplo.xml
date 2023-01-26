@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nomina>
+    <datos>
+        <empresa></empresa>
+        <domicilio></domicilio>
+        <cod_ss></cod_ss>
+        <C.I.F></C.I.F>
+    </datos>
+    <datos_personales>
+        <nombre></nombre>
+        <cat_profesional></cat_profesional>
+        <NIF></NIF>
+        <grupo_cotizacion></grupo_cotizacion>
+        <antigüedad></antigüedad>
+        <n_afi_ss></n_afi_ss>      
+    </datos_personales>
+    <periodos>
+        <fecha_inicio></fecha_inicio>
+        <fecha_fin></fecha_fin>
+        <total_dias></total_dias>
+    </periodos>
+    <devengos>
+        <perc_salariales>
+            <salario_base>1500</salario_base>
+            <comple_salariales>
+                <incentivos>192</incentivos>
+                <horas_extra>
+                    <estructurales>60</estructurales>
+                    <f_mayor>100</f_mayor>
+                    <total>160</total>
+                </horas_extra>
+                <grat_extras></grat_extras>
+                <sal_especie></sal_especie>
+            </comple_salariales>
+        </perc_salariales>
+        <perc_NO_salariales>
+            <indem></indem>
+            <prest_empresa></prest_empresa>
+            <prest_SS></prest_SS>
+            <otros></otros>
+        </perc_NO_salariales>
+    </devengos>
+    <total_devengado>1852</total_devengado>
+    <deducciones>
+        <cont_comunes porcentaje="4,7%">
+            <aportacion>91,27</aportacion>
+            <base_cot>1942</base_cot>
+        </cont_comunes>
+        <desempleo porcentaje="1,55%">
+            <aportacion>32,58</aportacion>
+            <base_cot>2102</base_cot>
+        </desempleo>
+        <form_prof porcentaje="0,1%">
+            <aportacion>2,1</aportacion>
+            <base_cot>2102</base_cot>
+        </form_prof>
+        <horas_extra>
+            <f_m porcentaje="2%">
+                <aportacion>2</aportacion>
+                <base_cot>100</base_cot>
+            </f_m>
+            <otras porcentaje="4,7%">
+                <aportacion>2,82</aportacion>
+                <base_cot>60</base_cot>
+            </otras>
+        </horas_extra>
+        <total_aport>130,77</total_aport>
+        <IRPF porcentaje="13%">
+            <aportacion>240,76</aportacion>
+            <base_cot>1852</base_cot>
+        </IRPF>
+        <anticipos></anticipos>
+        <product_especie></product_especie>
+        <otras_deducciones></otras_deducciones>
+        <total_deducir>371,53</total_deducir>
+    </deducciones>
+    <liquido_a_percibir>1480,47</liquido_a_percibir>
+    <fechaYsello>1 de abril de 2011</fechaYsello>
+    <bases_cotizacion>
+        <BCCC>
+            <base_inc_temp></base_inc_temp>
+            <rem_mensual>1692</rem_mensual>
+            <prorrata>250</prorrata>
+            <total_a_cotizar>1942</total_a_cotizar>
+        </BCCC>
+        <BCCP>2102</BCCP>
+        <base_horas_extra>160</base_horas_extra>
+        <base_IRPF>1852</base_IRPF>
+    </bases_cotizacion>
+</nomina>
+
