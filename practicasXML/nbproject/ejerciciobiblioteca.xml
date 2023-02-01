@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pedido>
+    <libros>
+        <ubicacion>
+            <seccion></seccion>
+            <estanteria></estanteria>
+        </ubicacion>
+        <libro>
+            <ISBN></ISBN>
+            <idioma></idioma>
+            <autor></autor>
+            <categoria></categoria>
+            <edicion></edicion>
+            <año></año>
+            <editorial></editorial>
+            <resumen></resumen>
+        </libro>
+        <ejemplar>
+            <estado></estado>
+            <fecha_compra></fecha_compra>
+            <listado></listado>
+        </ejemplar>
+    </libros>
+    <prestamo>
+        <usuario></usuario>
+        <fecha_prestamo></fecha_prestamo>
+        <fecha_devolucion></fecha_devolucion>
+    </prestamo>
+    <usuario>
+        <nombre></nombre>
+        <apellidos></apellidos>
+        <fecha_nac></fecha_nac>
+        <identificador></identificador>
+    </usuario>
+</pedido>
+
