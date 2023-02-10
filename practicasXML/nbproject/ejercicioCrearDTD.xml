@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE familia[
+    <!ELEMENT familia (persona+)>
+ 
+    <!ELEMENT persona (nombre, apellidos, email+, parentesco)>
+    <!ATTLIST persona dni ID #IMPLIED>
+    <!ATTLIST persona edad CDATA #IMPLIED>
+    
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT parentesco (#PCDATA)>
+] >
+
+
+
+<familia>
+    <persona dni="974021957H" edad="48">
+        <nombre>Vito</nombre>
+        <apellidos>Corleone</apellidos>
+        <email>vito@cesurformacion.com</email>
+        <email>vito@onlyfans.com</email>
+        <parentesco>Padrino</parentesco>
+    </persona>
+    
+    <persona dni="28764254K" edad="23">
+        <nombre>Toni</nombre>
+        <apellidos>Soprano</apellidos>
+        <email>toni@cesurformacion.com</email>
+        <parentesco>Capo</parentesco>
+    </persona>
+</familia>
