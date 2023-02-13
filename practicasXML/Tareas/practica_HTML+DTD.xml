@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE ejemplos [
+    <!ELEMENT ejemplos (html)>
+    
+    <!ELEMENT html (head, body)> 
+    <!ELEMENT head (title)> 
+    <!ELEMENT body (h1 | h2 | p | ul | ol | hr | br | img | a)*> 
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT h1 (#PCDATA)> 
+    <!ELEMENT h2 (#PCDATA)> 
+    <!ELEMENT p (#PCDATA | strong | a | img)*> 
+    <!ELEMENT ul (li)*> 
+    <!ELEMENT ol (li)*> 
+    <!ELEMENT li (#PCDATA | strong | a | img)*> 
+    <!ELEMENT a (#PCDATA)>
+    <!ATTLIST a
+        href CDATA #REQUIRED> 
+        
+    <!ELEMENT img EMPTY> 
+    <!ATTLIST img 
+        src CDATA #REQUIRED 
+        width CDATA #IMPLIED 
+        height CDATA #IMPLIED>
+         
+    <!ELEMENT strong (#PCDATA)*> 
+    <!ELEMENT br EMPTY> 
+    <!ELEMENT hr EMPTY>
+    
+] >
+
+
+<ejemplos>
+    <html>
+        <head>
+            <title>Ejemplo 1</title>
+        </head>
+        <body>
+            <h1>Titulo de ejemplo</h1>
+            <p>
+                Esto es un parrafo con un <a href="#">enlace</a>
+                y una imagen <img width="30" height="30" src="#"/>
+            </p>
+        </body>
+    </html>
+    
+    <html> 
+        <head> 
+            <title>Ejemplo 2</title> 
+        </head> 
+        <body> 
+            <h1>Título principal</h1> 
+            <p>Este es un párrafo con <strong>texto en negrita</strong> 
+            y un enlace a <a href="#">www.example.com</a></p> 
+            <ul> 
+                <li>Elemento 1 de lista sin numeración</li> 
+                <li>Elemento 2 de lista sin numeración</li> 
+            </ul> 
+            <ol> 
+                <li>Elemento 1 de lista numerada</li> 
+                <li>Elemento 2 de lista numerada</li> 
+            </ol> 
+            <h2>Título secundario</h2> 
+            <p>Este es otro párrafo con <img src="imagen.jpg" width="100" 
+            height="100"/> una imagen de muestra y una línea horizontal <hr/> 
+            al final</p> 
+        </body> 
+    </html>
+</ejemplos>
+
